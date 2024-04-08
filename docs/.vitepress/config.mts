@@ -25,14 +25,6 @@ export default defineConfig({
               link: "/interview/CSS面试题汇总.md",
             },
             {
-              text: "HTML面试题汇总",
-              link: "/interview/HTML面试题汇总.md",
-            },
-            {
-              text: "Javascript面试题汇总",
-              link: "/interview/Javascript面试题汇总.md",
-            },
-            {
               text: "浏览器面试题汇总",
               link: "/interview/浏览器面试题汇总.md",
             },
