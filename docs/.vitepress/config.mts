@@ -12,7 +12,19 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "面试题汇总", link: "/interview/index" },
-      { text: "其他", link: "/others/index" },
+      {
+        text: "其他",
+        items: [
+          {
+            text: "ts-challenge",
+            link: "https://encode-studio-fe.github.io/ts-challenge/",
+          },
+          {
+            text: "leetcode",
+            link: "https://encode-studio-fe.github.io/encode-algorithms/",
+          },
+        ],
+      },
     ],
 
     sidebar: {
@@ -53,9 +65,9 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/git123-ai/study-docs.git" },
     ],
   },
-  markdown:{
-    attrs:{
-      disable:true
-    }
-  }
+  markdown: {
+    attrs: {
+      disable: true,
+    },
+  },
 });
